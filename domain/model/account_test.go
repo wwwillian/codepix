@@ -5,8 +5,8 @@ import (
 
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/stretchr/testify/require"
 	"github.com/wwwillian/codepix-go/domain/model"
+	"github.com/stretchr/testify/require"
 )
 
 func TestModel_NewAccount(t *testing.T) {
